@@ -1,0 +1,5 @@
+platform:ios, '8.0'
+
+target '蓝牙4.0' do
+   pod 'SVProgressHUD'
+end

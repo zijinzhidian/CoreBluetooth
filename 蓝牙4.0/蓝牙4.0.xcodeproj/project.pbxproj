@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		164959BBD5449A572BE16986 /* libPods-蓝牙4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7539F6260CAD06360EE390 /* libPods-蓝牙4.0.a */; };
+		18B502D12004B334000DC8BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B502D02004B334000DC8BD /* AppDelegate.m */; };
+		18B502D42004B334000DC8BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B502D32004B334000DC8BD /* ViewController.m */; };
+		18B502D72004B334000DC8BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B502D52004B334000DC8BD /* Main.storyboard */; };
+		18B502D92004B334000DC8BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B502D82004B334000DC8BD /* Assets.xcassets */; };
+		18B502DC2004B334000DC8BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B502DA2004B334000DC8BD /* LaunchScreen.storyboard */; };
+		18B502DF2004B334000DC8BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B502DE2004B334000DC8BD /* main.m */; };
+		18B502E92004B334000DC8BD /* __4_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B502E82004B334000DC8BD /* __4_0Tests.m */; };
+		18B502F42004B334000DC8BD /* __4_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B502F32004B334000DC8BD /* __4_0UITests.m */; };
+		18B503092004B7F6000DC8BD /* PeripheralCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B503072004B7F6000DC8BD /* PeripheralCell.m */; };
+		18B5030A2004B7F6000DC8BD /* PeripheralCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B503082004B7F6000DC8BD /* PeripheralCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B502E52004B334000DC8BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B502C42004B334000DC8BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B502CB2004B334000DC8BD;
+			remoteInfo = "蓝牙4.0";
+		};
+		18B502F02004B334000DC8BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B502C42004B334000DC8BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B502CB2004B334000DC8BD;
+			remoteInfo = "蓝牙4.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B502CC2004B334000DC8BD /* 蓝牙4.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "蓝牙4.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B502CF2004B334000DC8BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18B502D02004B334000DC8BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18B502D22004B334000DC8BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18B502D32004B334000DC8BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18B502D62004B334000DC8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B502D82004B334000DC8BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B502DB2004B334000DC8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B502DD2004B334000DC8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B502DE2004B334000DC8BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B502E42004B334000DC8BD /* 蓝牙4.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "蓝牙4.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B502E82004B334000DC8BD /* __4_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __4_0Tests.m; sourceTree = "<group>"; };
+		18B502EA2004B334000DC8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B502EF2004B334000DC8BD /* 蓝牙4.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "蓝牙4.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B502F32004B334000DC8BD /* __4_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __4_0UITests.m; sourceTree = "<group>"; };
+		18B502F52004B334000DC8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B503062004B7F6000DC8BD /* PeripheralCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeripheralCell.h; sourceTree = "<group>"; };
+		18B503072004B7F6000DC8BD /* PeripheralCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeripheralCell.m; sourceTree = "<group>"; };
+		18B503082004B7F6000DC8BD /* PeripheralCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeripheralCell.xib; sourceTree = "<group>"; };
+		18BA6734200723590099A5EA /* 蓝牙4.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "蓝牙4.0.entitlements"; sourceTree = "<group>"; };
+		4DB2A955591A5F21DC8611A2 /* Pods-蓝牙4.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-蓝牙4.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-蓝牙4.0/Pods-蓝牙4.0.debug.xcconfig"; sourceTree = "<group>"; };
+		5F127B2FC42EC3D5E48CE396 /* Pods-蓝牙4.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-蓝牙4.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-蓝牙4.0/Pods-蓝牙4.0.release.xcconfig"; sourceTree = "<group>"; };
+		DC7539F6260CAD06360EE390 /* libPods-蓝牙4.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-蓝牙4.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B502C92004B334000DC8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164959BBD5449A572BE16986 /* libPods-蓝牙4.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B502E12004B334000DC8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B502EC2004B334000DC8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B502C32004B334000DC8BD = {
+			isa = PBXGroup;
+			children = (
+				18B502CE2004B334000DC8BD /* 蓝牙4.0 */,
+				18B502E72004B334000DC8BD /* 蓝牙4.0Tests */,
+				18B502F22004B334000DC8BD /* 蓝牙4.0UITests */,
+				18B502CD2004B334000DC8BD /* Products */,
+				8445EE811E9D3881DC2A1B91 /* Pods */,
+				55638F6362FDE339EDDC1FBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18B502CD2004B334000DC8BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B502CC2004B334000DC8BD /* 蓝牙4.0.app */,
+				18B502E42004B334000DC8BD /* 蓝牙4.0Tests.xctest */,
+				18B502EF2004B334000DC8BD /* 蓝牙4.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B502CE2004B334000DC8BD /* 蓝牙4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				18BA6734200723590099A5EA /* 蓝牙4.0.entitlements */,
+				18B502CF2004B334000DC8BD /* AppDelegate.h */,
+				18B502D02004B334000DC8BD /* AppDelegate.m */,
+				18B503062004B7F6000DC8BD /* PeripheralCell.h */,
+				18B503072004B7F6000DC8BD /* PeripheralCell.m */,
+				18B503082004B7F6000DC8BD /* PeripheralCell.xib */,
+				18B502D22004B334000DC8BD /* ViewController.h */,
+				18B502D32004B334000DC8BD /* ViewController.m */,
+				18B502D52004B334000DC8BD /* Main.storyboard */,
+				18B502D82004B334000DC8BD /* Assets.xcassets */,
+				18B502DA2004B334000DC8BD /* LaunchScreen.storyboard */,
+				18B502DD2004B334000DC8BD /* Info.plist */,
+				18B502DE2004B334000DC8BD /* main.m */,
+			);
+			path = "蓝牙4.0";
+			sourceTree = "<group>";
+		};
+		18B502E72004B334000DC8BD /* 蓝牙4.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18B502E82004B334000DC8BD /* __4_0Tests.m */,
+				18B502EA2004B334000DC8BD /* Info.plist */,
+			);
+			path = "蓝牙4.0Tests";
+			sourceTree = "<group>";
+		};
+		18B502F22004B334000DC8BD /* 蓝牙4.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18B502F32004B334000DC8BD /* __4_0UITests.m */,
+				18B502F52004B334000DC8BD /* Info.plist */,
+			);
+			path = "蓝牙4.0UITests";
+			sourceTree = "<group>";
+		};
+		55638F6362FDE339EDDC1FBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC7539F6260CAD06360EE390 /* libPods-蓝牙4.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8445EE811E9D3881DC2A1B91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DB2A955591A5F21DC8611A2 /* Pods-蓝牙4.0.debug.xcconfig */,
+				5F127B2FC42EC3D5E48CE396 /* Pods-蓝牙4.0.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B502CB2004B334000DC8BD /* 蓝牙4.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B502F82004B334000DC8BD /* Build configuration list for PBXNativeTarget "蓝牙4.0" */;
+			buildPhases = (
+				39F233FB4E9308839293AA78 /* [CP] Check Pods Manifest.lock */,
+				18B502C82004B334000DC8BD /* Sources */,
+				18B502C92004B334000DC8BD /* Frameworks */,
+				18B502CA2004B334000DC8BD /* Resources */,
+				C033CBE8C0396242BDAA774F /* [CP] Embed Pods Frameworks */,
+				D69EDCCBC5C6241A12EAD4F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "蓝牙4.0";
+			productName = "蓝牙4.0";
+			productReference = 18B502CC2004B334000DC8BD /* 蓝牙4.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B502E32004B334000DC8BD /* 蓝牙4.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B502FB2004B334000DC8BD /* Build configuration list for PBXNativeTarget "蓝牙4.0Tests" */;
+			buildPhases = (
+				18B502E02004B334000DC8BD /* Sources */,
+				18B502E12004B334000DC8BD /* Frameworks */,
+				18B502E22004B334000DC8BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B502E62004B334000DC8BD /* PBXTargetDependency */,
+			);
+			name = "蓝牙4.0Tests";
+			productName = "蓝牙4.0Tests";
+			productReference = 18B502E42004B334000DC8BD /* 蓝牙4.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18B502EE2004B334000DC8BD /* 蓝牙4.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B502FE2004B334000DC8BD /* Build configuration list for PBXNativeTarget "蓝牙4.0UITests" */;
+			buildPhases = (
+				18B502EB2004B334000DC8BD /* Sources */,
+				18B502EC2004B334000DC8BD /* Frameworks */,
+				18B502ED2004B334000DC8BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B502F12004B334000DC8BD /* PBXTargetDependency */,
+			);
+			name = "蓝牙4.0UITests";
+			productName = "蓝牙4.0UITests";
+			productReference = 18B502EF2004B334000DC8BD /* 蓝牙4.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B502C42004B334000DC8BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zjbojin;
+				TargetAttributes = {
+					18B502CB2004B334000DC8BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+						};
+					};
+					18B502E32004B334000DC8BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18B502CB2004B334000DC8BD;
+					};
+					18B502EE2004B334000DC8BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18B502CB2004B334000DC8BD;
+					};
+				};
+			};
+			buildConfigurationList = 18B502C72004B334000DC8BD /* Build configuration list for PBXProject "蓝牙4.0" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B502C32004B334000DC8BD;
+			productRefGroup = 18B502CD2004B334000DC8BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B502CB2004B334000DC8BD /* 蓝牙4.0 */,
+				18B502E32004B334000DC8BD /* 蓝牙4.0Tests */,
+				18B502EE2004B334000DC8BD /* 蓝牙4.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B502CA2004B334000DC8BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B502DC2004B334000DC8BD /* LaunchScreen.storyboard in Resources */,
+				18B502D92004B334000DC8BD /* Assets.xcassets in Resources */,
+				18B502D72004B334000DC8BD /* Main.storyboard in Resources */,
+				18B5030A2004B7F6000DC8BD /* PeripheralCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B502E22004B334000DC8BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B502ED2004B334000DC8BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39F233FB4E9308839293AA78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-蓝牙4.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C033CBE8C0396242BDAA774F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-蓝牙4.0/Pods-蓝牙4.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D69EDCCBC5C6241A12EAD4F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-蓝牙4.0/Pods-蓝牙4.0-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-蓝牙4.0/Pods-蓝牙4.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B502C82004B334000DC8BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B503092004B7F6000DC8BD /* PeripheralCell.m in Sources */,
+				18B502D42004B334000DC8BD /* ViewController.m in Sources */,
+				18B502DF2004B334000DC8BD /* main.m in Sources */,
+				18B502D12004B334000DC8BD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B502E02004B334000DC8BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B502E92004B334000DC8BD /* __4_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B502EB2004B334000DC8BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B502F42004B334000DC8BD /* __4_0UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B502E62004B334000DC8BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B502CB2004B334000DC8BD /* 蓝牙4.0 */;
+			targetProxy = 18B502E52004B334000DC8BD /* PBXContainerItemProxy */;
+		};
+		18B502F12004B334000DC8BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B502CB2004B334000DC8BD /* 蓝牙4.0 */;
+			targetProxy = 18B502F02004B334000DC8BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B502D52004B334000DC8BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B502D62004B334000DC8BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B502DA2004B334000DC8BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B502DB2004B334000DC8BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B502F62004B334000DC8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18B502F72004B334000DC8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B502F92004B334000DC8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB2A955591A5F21DC8611A2 /* Pods-蓝牙4.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4R3BFY32R;
+				INFOPLIST_FILE = "蓝牙4.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjbojin.--4-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B502FA2004B334000DC8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F127B2FC42EC3D5E48CE396 /* Pods-蓝牙4.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4R3BFY32R;
+				INFOPLIST_FILE = "蓝牙4.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjbojin.--4-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18B502FC2004B334000DC8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "蓝牙4.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjbojin.--4-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/蓝牙4.0.app/蓝牙4.0";
+			};
+			name = Debug;
+		};
+		18B502FD2004B334000DC8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "蓝牙4.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjbojin.--4-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/蓝牙4.0.app/蓝牙4.0";
+			};
+			name = Release;
+		};
+		18B502FF2004B334000DC8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "蓝牙4.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjbojin.--4-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "蓝牙4.0";
+			};
+			name = Debug;
+		};
+		18B503002004B334000DC8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "蓝牙4.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjbojin.--4-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "蓝牙4.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B502C72004B334000DC8BD /* Build configuration list for PBXProject "蓝牙4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B502F62004B334000DC8BD /* Debug */,
+				18B502F72004B334000DC8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B502F82004B334000DC8BD /* Build configuration list for PBXNativeTarget "蓝牙4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B502F92004B334000DC8BD /* Debug */,
+				18B502FA2004B334000DC8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B502FB2004B334000DC8BD /* Build configuration list for PBXNativeTarget "蓝牙4.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B502FC2004B334000DC8BD /* Debug */,
+				18B502FD2004B334000DC8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B502FE2004B334000DC8BD /* Build configuration list for PBXNativeTarget "蓝牙4.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B502FF2004B334000DC8BD /* Debug */,
+				18B503002004B334000DC8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B502C42004B334000DC8BD /* Project object */;
+}
