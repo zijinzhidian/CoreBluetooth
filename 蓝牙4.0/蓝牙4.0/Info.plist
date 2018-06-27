@@ -20,6 +20,8 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>请求打开蓝牙</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>bluetooth-central</string>
